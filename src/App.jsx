@@ -42,16 +42,10 @@ const App=()=>{
  
   return (
     <div className="container">
-      <div></div>
-      <div></div>
-      <div></div>
-      <div></div>
       <div className="calculator-wrapper">
         <div className="calculator">
           <div className="display">
-            <div className='box'>blank</div>
             <h2 className='result'>{result||input}</h2>
-            <div className='box2'>blank</div>
           </div> 
           <div className="buttons-wrapper">
              <div className='buttons'>
